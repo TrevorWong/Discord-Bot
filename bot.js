@@ -16,4 +16,4 @@ bot.on('ready', () => {
     console.log('Bot Launched......')
 });
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(process.env.bot.token);
