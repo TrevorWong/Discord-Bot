@@ -1,0 +1,11 @@
+{
+  "name": "Discord Bot",
+  "description': "0.0.0",
+  "name": "bot.js",
+  "scripts": {
+  "start": "node bot.js"
+  },
+  "dependencies": {
+  "discord.js": "11.1.0",
+  }
+}
