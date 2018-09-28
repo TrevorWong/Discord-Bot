@@ -8,7 +8,7 @@ bot.on('message', message => {
 
   //command
     if (msg === prefix + 'CC') {
-      message.channel.send('Connected BOT!')
+      message.channel.send( 'To' + sender + 'The Bot has connected!' )
     }
 });
 
