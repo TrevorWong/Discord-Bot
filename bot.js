@@ -8,12 +8,13 @@ bot.on('message', message => {
 
   //command
     if (msg === prefix + 'CC') {
-      message.channel.send( 'To' + sender + 'The Bot has connected!' )
+      message.channel.send( 'The Bot has connected!' )
     }
 });
-
-bot.on('ready', () => {
-    console.log('Bot Launched......')
+bot.on('guildMemberAdd', member => {
+    var role = member.guild.roles.find('name', 'User');
+    member.addRole(role)
+    member.guild.channel.get('445889881022136320').send('[ServerBOT]' + member.user.username + 'Has join the Discord Server!');
 });
 
 bot.login(process.env.bot_token);
