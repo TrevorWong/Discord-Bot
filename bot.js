@@ -12,15 +12,4 @@ bot.on('message', message => {
     }
 });
 
-
-
-bot.on('guildMemberAdd', member => {
-    console.log('[ServerBOT]' + member.user.username + 'has join the Discord Server!')
-    console.log(member)
-  
-    var role = member.guild.roles.find('name', 'User');
-    member.addRole(role)
-    member.guild.channel.get('445899572171243520').send('[ServerBOT]' + member.user.username + 'has join the Discord Server!');
-});
-
 bot.login(process.env.bot_token);
