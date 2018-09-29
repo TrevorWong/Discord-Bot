@@ -7,9 +7,10 @@ bot.on('message', message => {
   var prefix = '>'
 
   //command
-    if (msg === prefix + 'CC') {
+if (msg === prefix + 'CC') {
       message.channel.send( 'The Bot has connected!' )
     }
 });
+
 
 bot.login(process.env.bot_token);
