@@ -18,4 +18,3 @@ if (msg === prefix + 'CC') {
 
 //Event
 bot.login(process.env.bot_token);
-bot.on('')
