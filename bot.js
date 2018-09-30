@@ -10,9 +10,7 @@ bot.on('message', message => {
 if (msg === prefix + 'CC') {
       message.channel.send( 'The Bot has connected!' )
     }
-if (msg === prefix + 'UserName') {
-      message.channel.send('Hi!' + sender.name)
-    }
+
   
   
   
