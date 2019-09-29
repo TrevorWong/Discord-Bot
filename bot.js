@@ -12,7 +12,7 @@ bot.on('message', message => {
   }
   //GameInvite---Command
   if (msg === prefix + 'R6') {
-    message.channel.send( 'ANYONE play R6?' )
+    message.channel.send( '@everyone anyone play R6?' )
   }
 });
 
