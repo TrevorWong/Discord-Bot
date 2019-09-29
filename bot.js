@@ -10,6 +10,10 @@ bot.on('message', message => {
   if (msg === prefix + 'CC') {
     message.channel.send( 'The Bot has connected!' )
   }
+  //GameInvite---Command
+  if (msg === prefix + 'R6') {
+    message.channel.send( 'ANYONE play R6?' )
+  }
 });
 
 //Bot_Token
