@@ -11,13 +11,6 @@ bot.on('message', message => {
   if (msg === prefix + 'CC') {
     message.channel.send( 'The Bot has connected!' )
   }
-  //Eco---System
-  if (!userdata[sender.id + message.guild.id])  userdata[sender.id + message.guild.id] = {}
-  if (!userdata[sender.id + message.guild.id].money) userdata[sender.id + message.guild.id].money = 100;
-  //Eco---Command
-  if (msg === prefix + 'CC') {
-    message.channel.send(userdata[sender.id + message.guild.id].money)
-  }
 });
 
 //Bot_Token
