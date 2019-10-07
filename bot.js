@@ -12,7 +12,7 @@ bot.on('message', message => {
   }
   //Troll---Command
   if (msg === prefix + 'jimmy') {
-    message.channel.send( '@成員' )
+    message.channel.send( '@JIMMY' )
   }
   //GameInvite---Command
   if (msg === prefix + 'R6') {
