@@ -10,6 +10,10 @@ bot.on('message', message => {
   if (msg === prefix + 'CC') {
     message.channel.send( 'The Bot has connected!' )
   }
+  //Troll---Command
+  if (msg === prefix + 'jimmy') {
+    message.channel.send( '@♡最強飛鼠♡~子瑜#7267' )
+  }
   //GameInvite---Command
   if (msg === prefix + 'R6') {
     message.channel.send( '@everyone anyone play R6?  BY( ' + sender + '  )')
