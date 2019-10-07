@@ -11,7 +11,7 @@ bot.on('message', message => {
     message.channel.send( 'The Bot has connected!' )
   }
   //Troll---Command
-  if (msg === prefix + 'jimmy') {
+  if (msg === prefix + 'troll') {
     message.channel.send( '林鄭偉華' )
   }
   //GameInvite---Command
