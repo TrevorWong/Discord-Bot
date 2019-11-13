@@ -10,13 +10,15 @@ bot.on('message', message => {
   if (msg === prefix + 'CC') {
     message.channel.send( 'The Bot has connected!' )
   }
+  
   //Troll---Command
-  if (msg === prefix + 'troll') {
-    message.channel.send( '林鄭偉華' )
-  }
+  
   //GameInvite---Command
   if (msg === prefix + 'R6') {
     message.channel.send( '@everyone anyone play R6?  BY( ' + sender + '  )')
+  }
+  if (msg === prefix + 'Z') {
+    message.channel.send( '@everyone anyone play 戰意?  BY( ' + sender + '  )')
   }
 }); 
 
